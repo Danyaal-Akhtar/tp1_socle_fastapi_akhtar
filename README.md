@@ -15,8 +15,14 @@
 
 ### Partie 4 : Typage et validation automatique
 
-**Cas 1** :
+**Cas 1** : GET /users/1
 La route est exécutée. "id	1" est affiché
 
-**Cas 2** :
+**Cas 2** : GET /users/toto
 On constate l'erreur 422 lorsque l'on regarde dans la console. Le type attendu doit être un "int"
+
+
+### Partie 5 : Un peu d'architecture logicielle
+
+1. Pourquoi le champ id n'est-il pas présent dans le modèle UserCreate ?
+2. A quel moment et par qui l'identifiant d'un utilisateur doit-être attibué ?
