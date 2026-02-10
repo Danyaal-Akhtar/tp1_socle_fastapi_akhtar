@@ -20,3 +20,6 @@ def get_users():
             {"id":10, "login":"julien"}]
     return users
 
+@app.get("/users/{user_id}")
+def get_user(user_id: int):
+    return {"id": user_id}
