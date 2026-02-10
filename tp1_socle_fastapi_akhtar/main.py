@@ -19,3 +19,4 @@ def get_users():
             {"id":9, "login":"ismael"},
             {"id":10, "login":"julien"}]
     return users
+
